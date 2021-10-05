@@ -36,6 +36,11 @@ int main() {
 		arr2[i] = arr[10-i];
 	}
 	
+	//b. print out the values in the second array
+	for(i = 0; i < 10; i++) {
+		printf("%d\n", arr2[i]);
+	}
+	
 }
 	
 	

@@ -32,18 +32,31 @@ int main() {
 	int *p = arr;
 	int *p2 = arr2;
 	
-	//7. using only pointer variables
+	//7. using only pointer variables 
+	
 	//a. populate the second array with the values in the first but in reverse order
+	//[]
 	for(i = 0; i < 10; i++) {
 		arr2[i] = arr[9-i];
 	}
 	
 	//b. print out the values in the second array
-	printf("values in reverse arr: \n");
+	printf("values in reverse arr using []: \n");
 	for(i = 0; i < 10; i++) {
 		printf("%d\n", arr2[i]);
 	}
+	printf("\n");
 	
+	//try this using both [] and *
+	//*
+	for(i = 0; i < 10; i++) {
+		*(p2 + i) = *(p + 9 - i);
+	}
+	
+	printf("values in reverse arr using *: \n");
+	for(i = 0; i < 10; i++) {
+		printf("%d\n", arr2[i]);
+	}	
 }
 	
 	

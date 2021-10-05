@@ -23,6 +23,13 @@ int main() {
 		printf("%d\n", arr[i]);
 	}
 	
+	//5. create a separate array large enough to store 10 ints
+	int arr2[10];
+	
+	//6. create pointer variables that will point to each array
+	int *p = arr;
+	int *p2 = arr2;
+	
 	
 }
 	

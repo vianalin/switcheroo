@@ -23,6 +23,8 @@ int main() {
 		printf("%d\n", arr[i]);
 	}
 	
+	printf("\n");
+	
 	//5. create a separate array large enough to store 10 ints
 	int arr2[10];
 	
@@ -33,10 +35,11 @@ int main() {
 	//7. using only pointer variables
 	//a. populate the second array with the values in the first but in reverse order
 	for(i = 0; i < 10; i++) {
-		arr2[i] = arr[10-i];
+		arr2[i] = arr[9-i];
 	}
 	
 	//b. print out the values in the second array
+	printf("values in reverse arr: \n");
 	for(i = 0; i < 10; i++) {
 		printf("%d\n", arr2[i]);
 	}

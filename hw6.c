@@ -17,6 +17,13 @@ int main() {
 		arr[i] = rand();
 	}
 	
-	//4. 
+	//4. print out the values in this array
+	printf("values in arr: \n");
+	for(i = 0; i < 10; i++) {
+		printf("%d\n", arr[i]);
+	}
+	
+	
+}
 	
 	

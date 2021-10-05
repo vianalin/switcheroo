@@ -30,6 +30,11 @@ int main() {
 	int *p = arr;
 	int *p2 = arr2;
 	
+	//7. using only pointer variables
+	//a. populate the second array with the values in the first but in reverse order
+	for(i = 0; i < 10; i++) {
+		arr2[i] = arr[10-i];
+	}
 	
 }
 	
